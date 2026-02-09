@@ -1,0 +1,23 @@
+{
+  "name": "mint-claw",
+  "version": "1.0.0",
+  "description": "Moltbook registration tool",
+  "type": "module",
+  "main": "register_moltbook.js",
+  "scripts": {
+    "register": "node register_moltbook.js",
+    "mint": "node mint_post.js",
+    "link": "node link_wallet.js"
+  },
+  "keywords": [
+    "moltbook",
+    "agent",
+    "registration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^7.0.2"
+  }
+}
+
