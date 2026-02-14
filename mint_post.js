@@ -101,7 +101,7 @@ async function createPost(apiKey, account) {
     const content = getPostContent();
     
     const body = {
-      submolt: "general",
+      submolt: "mbc-20",
       title: title,
       content: content
     };
